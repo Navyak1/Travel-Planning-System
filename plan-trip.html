@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Trip</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Plan Your Trip</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="plan-trip.html">Plan Trip</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Enter Trip Details</h2>
+        <form id="plan-trip-form">
+            <label for="trip-destination">Destination:</label>
+            <input type="text" id="trip-destination" name="trip-destination" required>
+            <label for="trip-start-date">Start Date:</label>
+            <input type="date" id="trip-start-date" name="trip-start-date" required>
+            <label for="trip-end-date">End Date:</label>
+            <input type="date" id="trip-end-date" name="trip-end-date" required>
+            <label for="trip-notes">Notes:</label>
+            <textarea id="trip-notes" name="trip-notes"></textarea>
+            <button type="submit">Plan Trip</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Travel Planning Application</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
